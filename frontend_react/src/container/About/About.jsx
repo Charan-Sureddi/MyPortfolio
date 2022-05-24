@@ -5,9 +5,10 @@ import { images } from '../../constants'
 import './About.scss';
 
 const abouts = [
-  {title: 'Web Developement', description: 'I am a good web developer', imgUrl: images.about01},
-  {title: 'Web Design', description: 'I am a good web developer', imgUrl: images.about02},
-  {title: 'UI/UX', description: 'I am a good web developer', imgUrl: images.about03}
+  {title: 'Web Development', description: 'I am good web developer', imgUrl: images.about01},
+  {title: 'Frontend Development', description: 'I am good web developer', imgUrl: images.about02},
+  {title: 'Backend Development', description: 'I am good web developer', imgUrl: images.about03},
+  {title: 'Docker', description: 'I am good web developer', imgUrl: images.about04}
 ];
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
     <>
       <h2 className='head-text'>
         I Know that
-        <span>Good Design</span>
+        <span> Good Development </span>
         <br />
         means
         <span> Good Business</span>
