@@ -40,10 +40,8 @@ const About = () => {
   );
 };
 
-export default AppWrap(About, 'about');
-
-// export default AppWrap(
-//   MotionWrap(About, 'app__about'),
-//   'about',
-//   'app__whitebg',
-// );
+export default AppWrap(
+  MotionWrap(About, 'app__about'),
+  'about',
+  'app__whitebg',
+);
